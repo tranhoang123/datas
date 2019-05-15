@@ -1,0 +1,173 @@
+
+TextMessage {
+  user: 
+   User {
+     id: 'bmuCtQzn7MFk6YMkq',
+     _getRobot: [Function],
+     name: 'guest-2',
+     alias: 'Hoang',
+     roomID: '4XfMWDGBxKcCNFXzZ',
+     roomType: 'l',
+     room: '4XfMWDGBxKcCNFXzZ' },
+  done: false,
+  room: '4XfMWDGBxKcCNFXzZ',
+  text: 'Hubot s',
+  id: 'bExmmFKSAmbRvjcQ5' }
+CatchAllMessage {
+  user: 
+   User {
+     id: 'bmuCtQzn7MFk6YMkq',
+     _getRobot: [Function],
+     name: 'guest-2',
+     alias: 'Hoang',
+     roomID: '4XfMWDGBxKcCNFXzZ',
+     roomType: 'l',
+     room: '4XfMWDGBxKcCNFXzZ' },
+  done: false,
+  room: '4XfMWDGBxKcCNFXzZ',
+  message: 
+   TextMessage {
+     user: 
+      User {
+        id: 'bmuCtQzn7MFk6YMkq',
+        _getRobot: [Function],
+        name: 'guest-2',
+        alias: 'Hoang',
+        roomID: '4XfMWDGBxKcCNFXzZ',
+        roomType: 'l',
+        room: '4XfMWDGBxKcCNFXzZ' },
+     done: false,
+     room: '4XfMWDGBxKcCNFXzZ',
+     text: 'Hubot s',
+     id: 'bExmmFKSAmbRvjcQ5' } }
+
+
+     {
+  "status": "success",
+  "data": {
+    "userId": "34YYb2cqqDaFz53ib",
+    "authToken": "7SzTikHBQ_vSFoxsH5tcc_9JCkPlIE_m6B0DlItU1fT",
+    "me": {
+      "_id": "34YYb2cqqDaFz53ib",
+      "name": "Bot",
+      "emails": [
+        {
+          "address": "test@test.com",
+          "verified": true
+        }
+      ],
+      "status": "online",
+      "statusConnection": "online",
+      "username": "mybot",
+      "utcOffset": 7,
+      "active": true,
+      "roles": [
+        "bot",
+        "livechat-manager",
+        "livechat-agent"
+      ],
+      "settings": {
+        "preferences": {
+          "enableAutoAway": true,
+          "idleTimeLimit": 300,
+          "desktopNotificationDuration": 0,
+          "audioNotifications": "mentions",
+          "desktopNotifications": "mentions",
+          "mobileNotifications": "mentions",
+          "unreadAlert": true,
+          "useEmojis": true,
+          "convertAsciiEmoji": true,
+          "autoImageLoad": true,
+          "saveMobileBandwidth": true,
+          "collapseMediaByDefault": false,
+          "hideUsernames": false,
+          "hideRoles": false,
+          "hideFlexTab": false,
+          "hideAvatars": false,
+          "sidebarGroupByType": true,
+          "sidebarViewMode": "medium",
+          "sidebarHideAvatar": false,
+          "sidebarShowUnread": false,
+          "sidebarShowFavorites": true,
+          "sendOnEnter": "normal",
+          "messageViewMode": 0,
+          "emailNotificationMode": "mentions",
+          "roomCounterSidebar": false,
+          "newRoomNotification": "door",
+          "newMessageNotification": "chime",
+          "muteFocusedConversations": true,
+          "notificationsSoundVolume": 100
+        }
+      },
+      "email": "test@test.com"
+    }
+  }
+}
+hoang@hoang-3420:~/Desktop/NewFolder/hubot-rocketchat-boilerplate/custom$ ^C
+hoang@hoang-3420:~/Desktop/NewFolder/hubot-rocketchat-boilerplate/custom$ ^C
+hoang@hoang-3420:~/Desktop/NewFolder/hubot-rocketchat-boilerplate/custom$ node AuthAPI
+undefined
+hoang@hoang-3420:~/Desktop/NewFolder/hubot-rocketchat-boilerplate/custom$ ^C
+hoang@hoang-3420:~/Desktop/NewFolder/hubot-rocketchat-boilerplate/custom$ ^C
+hoang@hoang-3420:~/Desktop/NewFolder/hubot-rocketchat-boilerplate/custom$ node AuthAPI
+{
+  "status": "success",
+  "data": {
+    "userId": "34YYb2cqqDaFz53ib",
+    "authToken": "GFP2IcQd33Q16BNFLsK0yhHtq8rO3ZxHCSg-uO2UXwB",
+    "me": {
+      "_id": "34YYb2cqqDaFz53ib",
+      "name": "Bot",
+      "emails": [
+        {
+          "address": "test@test.com",
+          "verified": true
+        }
+      ],
+      "status": "online",
+      "statusConnection": "online",
+      "username": "mybot",
+      "utcOffset": 7,
+      "active": true,
+      "roles": [
+        "bot",
+        "livechat-manager",
+        "livechat-agent"
+      ],
+      "settings": {
+        "preferences": {
+          "enableAutoAway": true,
+          "idleTimeLimit": 300,
+          "desktopNotificationDuration": 0,
+          "audioNotifications": "mentions",
+          "desktopNotifications": "mentions",
+          "mobileNotifications": "mentions",
+          "unreadAlert": true,
+          "useEmojis": true,
+          "convertAsciiEmoji": true,
+          "autoImageLoad": true,
+          "saveMobileBandwidth": true,
+          "collapseMediaByDefault": false,
+          "hideUsernames": false,
+          "hideRoles": false,
+          "hideFlexTab": false,
+          "hideAvatars": false,
+          "sidebarGroupByType": true,
+          "sidebarViewMode": "medium",
+          "sidebarHideAvatar": false,
+          "sidebarShowUnread": false,
+          "sidebarShowFavorites": true,
+          "sendOnEnter": "normal",
+          "messageViewMode": 0,
+          "emailNotificationMode": "mentions",
+          "roomCounterSidebar": false,
+          "newRoomNotification": "door",
+          "newMessageNotification": "chime",
+          "muteFocusedConversations": true,
+          "notificationsSoundVolume": 100
+        }
+      },
+      "email": "test@test.com"
+    }
+  }
+}

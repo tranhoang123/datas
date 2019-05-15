@@ -1,0 +1,79 @@
+<script src="/assets/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/assets/application-head-e094ef92b84ba96728007e7db667c1629313e00361ffaa2987d10b3436bfc263.js"></script>
+
+
+          <!-- <script src="/assets/6048680074.js" defer="defer"></script> -->
+
+            <!-- <script type="text/javascript" src="/assets/client.min.js" defer="defer"></script> -->
+
+
+            <script src="/assets/application-f52d10e6389628162d4f28b6f0e110867fb919f84fcff182640d640bebf65ecb.js"></script>
+        <!-- <script src="/assets/index-bed72cad610d09c57adc4b832f8fe4182c01d8d0bebe328fbdf336ef4f721e65.js"></script> -->
+    
+        <script src="/assets/client.min.js" defer=""></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53448691-16"></script>
+        
+
+        <!-- Begin MailChimp Signup Form -->
+
+<!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
+<!--End mc_embed_signup-->
+        <!-- <script src="/assets/saved_resource" defer=""></script> -->
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-53448691-16');
+
+
+$('#myModal').on('hidden.bs.modal', function (e) {
+  document.querySelector('video').pause()
+})
+
+if (window.location.pathname === '/') {
+  $(document).ready(function() {
+    $.get('/count.php', function(response) {
+      $('.subscriber-number-container').html('<span class="subscriber-number">'+response+'</span> people in line')
+    });
+
+    $(".cta-btn").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#get-early-access").offset().top - 100
+        }, 500);
+    });
+  })
+
+  // $(document).ready( function () {
+  //     var $form = $('#mc-embedded-subscribe-form');
+  //     if ( $form.length > 0 ) {
+  //         $('form input[type="submit"]').bind('click', function ( event ) {
+  //             if ( event ) event.preventDefault();
+  //             register($form);
+  //         });
+  //     }
+  // });
+
+  // function register($form) {
+  //     $.ajax({
+  //         type: $form.attr('method'),
+  //         url: $form.attr('action'),
+  //         data: $form.serialize(),
+  //         cache       : false,
+  //         dataType    : 'json',
+  //         contentType: "application/json; charset=utf-8",
+  //         error       : function(err) { alert("Could not connect to the registration server. Please try again later."+JSON.stringify(err)); },
+  //         success     : function(data) {
+  //             if (data.result != "success") {
+  //                 // Something went wrong, do something to notify the user. maybe alert(data.msg);
+  //             } else {
+  //                 // It worked, carry on...
+  //             }
+  //         }
+  //     });
+  // }
+}
+
+</script>

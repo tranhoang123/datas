@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    {{> head }}
+
+    <body class="home header-shown" cz-shortcut-listen="true">
+        {{> tag-manager }}
+        {{> header-mobile }}
+
+        <div id="main-wrapper">
+            <div class="main-content">
+                {{> header }}
+
+                {{{contents}}}
+
+                {{> footer-sg }}
+            </div>
+        {{> scripts }}
+    </body>
+</html>

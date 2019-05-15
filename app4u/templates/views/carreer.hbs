@@ -1,0 +1,71 @@
+<div class="container">
+	<div class="col-md-12 text-center">
+		<h2><b>Mobile QA Engine</b></h2>
+		<h4>We are passionate about what we do</h4>
+	</div>
+	<div class="col-md-12">
+		<p><a href="/">Home</a> &rarr;  Carreer</p>
+	</div>
+	<div class="col-md-12 require">
+		<h3><b>What you need to get this job</b></h3>
+		<ul style="list-style-type: circle;">
+			<li>Nisi commodo nulla enim ut commodo mollit ad irure minim laboris ea elit.</li>
+			<li>Laborum est aute duis amet.</li>
+			<li>Magna ex quis duis reprehenderit duis amet nulla fugiat id velit voluptate.</li>
+			<li>Laborum do nostrud excepteur quis incididunt.</li>
+			<li>Mollit pariatur ut culpa dolore dolor dolor deserunt non irure irure culpa irure.</li>
+			<li>Labore veniam consectetur non aute et anim ut nostrud non proident dolor.</li>
+			<li>Nostrud sunt exercitation ullamco ullamco incididunt.</li>
+			<li>Occaecat velit culpa enim aute nostrud.</li>
+			<li>Cupidatat duis ea ex quis exercitation nulla consectetur aute cillum aute cupidatat labore mollit minim.</li>
+			<li>Reprehenderit minim officia anim ipsum occaecat cillum.</li>
+		</ul>
+	</div>
+	<div class="col-md-12 require">
+		<h3><b>What will you be doing</b></h3>
+		<ul style="list-style-type: circle;">
+			<li>Nisi commodo nulla enim ut commodo mollit ad irure minim laboris ea elit.</li>
+			<li>Laborum est aute duis amet.</li>
+			<li>Magna ex quis duis reprehenderit duis amet nulla fugiat id velit voluptate.</li>
+		</ul>
+	</div>
+	<div class="col-md-12 text-center">
+		<h2><b>APPLY FOR THIS JOB</b></h2>
+	</div>
+	<div class="col-md-12">
+			{{#if enquirySubmitted}}
+			<h3>Thanks for your information.</h3>
+			{{else}}
+			<form method="post">
+				<input type="hidden" name="action" value="carreer">
+				<div class="col-md-12">
+				<div class="col-md-6 form-input">
+					<label>First Name*</label>
+					<input type="text" name="fName"  class="form-control" value="{{formData.fName}}">
+				</div>
+				<div class="col-md-6 form-input">
+					<label>Last Name*</label>
+					<input type="text" name="lName"  class="form-control" value="{{formData.lName}}">
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-6 form-input">
+					<label>Phone number*</label>
+					<input type="Number" name="phone"  class="form-control" value="{{formData.phone}}">
+				</div>
+				<div class="col-md-6 form-input">
+					<label>Email*</label>
+					<input type="text" name="email"  class="form-control" value="{{formData.email}}">
+				</div>
+			</div>
+			<div class="col-md-12 form-input1">
+					<label>Link to your Linkled profiled*</label>
+					<input type="text" name="linkled"  class="form-control" value="{{formData.linkled}}">
+			</div>
+			<div class="form-actions">
+				<button type="submit" class="btn btn-primary">Send</button>
+			</div>
+			</form>
+			{{/if}}
+	</div>
+</div>

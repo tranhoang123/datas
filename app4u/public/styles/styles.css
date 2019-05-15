@@ -1,0 +1,99 @@
+ #header {
+	background-position: center top;
+	background-size: 100% auto;
+	margin-top: 0%;
+}
+
+.image-content{
+	display: table;
+  	margin: auto;
+}
+.image-content p{
+	text-align: center;
+}
+.image-content h3{
+	text-align: center;
+}
+.mobile{
+	margin-top: 5%;
+	max-width: 90%;
+	max-height: 90%;
+}
+.computer{
+	max-width: 90%;
+	max-height: 90%;
+}
+.quote{
+	background-image: url(/images/img3.png) ;
+	background: no-repeat;
+}
+.avatar{
+	border-radius: 50%;
+	padding: 10% 10%;
+}
+.require{
+	margin-left: 1%;
+}
+.require li{
+	font-size: 10px;
+}
+.form-input{
+	padding-top: 1%;
+	box-shadow: none;
+}
+.form-input1{
+	margin-left: 1%;
+	margin-right: 3%;
+}
+#footer{
+	background: none repeat scroll 0 0;
+    height: 100px;
+    margin: auto;
+	width: 400px;
+	
+}
+.allbrown{
+	background-color: black;
+}
+.p1 .p2 .p3{
+	height: 400px;
+}
+.p1{
+	background: url("/images/p-bg.jpg");
+	background-position: right top;
+	background-size: 100% 100%;
+}
+.p2{
+	background: url("/images/p-bg2.jpg");
+	background-position: right top;
+	background-size: 100% 100%;
+}
+.p3{
+	background: url("/images/p-bg3.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.ab{
+	border-width: 3px;
+	border-color: black;
+	margin-top: 30px;
+}
+.ic{
+	margin-right: 20px ;
+}
+.c{
+	margin-right: 40xp;
+}
+.ab-img1 .ab-img2{
+	position: absolute;
+}
+.ab-img1{
+	width: 450px;
+	height: 452px;
+}
+.ab-img2{
+	margin-left: -100px;
+	
+}

@@ -1,0 +1,43 @@
+{"message":"[core] bot loading  . . . . . ~(0_0)~","level":"info","timestamp":"2019-03-08T02:46:34.086Z"}
+{"message":"[adapter] loading adapter by path: ./adapters/shell","level":"debug","timestamp":"2019-03-08T02:46:34.092Z"}
+{"message":"[core] bot starting . . . . . ┌(O_O)┘ bzzzt whirr","level":"info","timestamp":"2019-03-08T02:46:34.308Z"}
+{"message":"[server] Port 3000 in use, retrying on 3001","level":"info","timestamp":"2019-03-08T02:46:34.316Z"}
+{"message":"[server] Port 3001 in use, retrying on 3002","level":"info","timestamp":"2019-03-08T02:46:34.318Z"}
+{"message":"[server] listening, see public stats: http://127.0.0.1:3002/public","level":"info","timestamp":"2019-03-08T02:46:34.319Z"}
+{"message":"[adapter] starting message adapter: shell-message-adapter","level":"debug","timestamp":"2019-03-08T02:46:34.320Z"}
+{"message":"[core] bot started  . . . . . ~(O_O)~ bleep bloop","level":"info","timestamp":"2019-03-08T02:46:34.330Z"}
+{"message":"[shell] Re-routing logs to shell UI from here...","level":"debug","timestamp":"2019-03-08T02:46:34.331Z"}
+{"message":"[thought] receive message ID 073dbca07a48e8269814edde6707d49a","level":"info","timestamp":"2019-03-08T02:46:57.230Z"}
+{"message":"[thought] global hear processing incoming message ID 073dbca07a48e8269814edde6707d49a","level":"debug","timestamp":"2019-03-08T02:46:57.231Z"}
+{"message":"[thought] global listen processing incoming message ID 073dbca07a48e8269814edde6707d49a against 3 branches","level":"debug","timestamp":"2019-03-08T02:46:57.233Z"}
+{"message":"[branch] message \"enter message for Hoang\" matched custom branch ID shell-enter","level":"debug","timestamp":"2019-03-08T02:46:57.235Z"}
+{"message":"[branch] executing CustomBranch callback, ID shell-enter","level":"debug","timestamp":"2019-03-08T02:46:57.235Z"}
+{"message":"[thought] respond to matched branch shell-enter","level":"info","timestamp":"2019-03-08T02:46:57.236Z"}
+{"message":"[thought] global respond processing incoming message ID 073dbca07a48e8269814edde6707d49a","level":"debug","timestamp":"2019-03-08T02:46:57.236Z"}
+{"message":"[branch] shell-enter process done (matched)","level":"debug","timestamp":"2019-03-08T02:46:57.237Z"}
+{"message":"[thought] skip understand, no branches to process","level":"debug","timestamp":"2019-03-08T02:46:57.238Z"}
+{"message":"[thought] skip act, no branches to process","level":"debug","timestamp":"2019-03-08T02:46:57.238Z"}
+{"message":"[thought] skip remember, no storage adapter","level":"debug","timestamp":"2019-03-08T02:46:57.239Z"}
+{"message":"[thought] receive message ID 6e3df2658e2068acb363a2217453e2bc","level":"info","timestamp":"2019-03-08T02:47:06.993Z"}
+{"message":"[thought] global hear processing incoming message ID 6e3df2658e2068acb363a2217453e2bc","level":"debug","timestamp":"2019-03-08T02:47:06.994Z"}
+{"message":"[thought] global listen processing incoming message ID 6e3df2658e2068acb363a2217453e2bc against 3 branches","level":"debug","timestamp":"2019-03-08T02:47:06.997Z"}
+{"message":"[thought] skip understand, no branches to process","level":"debug","timestamp":"2019-03-08T02:47:06.998Z"}
+{"message":"[thought] skip act, no branches to process","level":"debug","timestamp":"2019-03-08T02:47:06.999Z"}
+{"message":"[thought] skip remember, no storage adapter","level":"debug","timestamp":"2019-03-08T02:47:06.999Z"}
+{"message":"[thought] receive message ID 3ba16154d50e8596f1a31c09013cee76","level":"info","timestamp":"2019-03-08T02:47:35.035Z"}
+{"message":"[thought] global hear processing incoming message ID 3ba16154d50e8596f1a31c09013cee76","level":"debug","timestamp":"2019-03-08T02:47:35.036Z"}
+{"message":"[thought] global listen processing incoming message ID 3ba16154d50e8596f1a31c09013cee76 against 3 branches","level":"debug","timestamp":"2019-03-08T02:47:35.037Z"}
+{"message":"[thought] skip understand, no branches to process","level":"debug","timestamp":"2019-03-08T02:47:35.038Z"}
+{"message":"[thought] skip act, no branches to process","level":"debug","timestamp":"2019-03-08T02:47:35.038Z"}
+{"message":"[thought] skip remember, no storage adapter","level":"debug","timestamp":"2019-03-08T02:47:35.038Z"}
+{"message":"[thought] receive message ID 6491d0ce1219b4238a7a80ae8f245661","level":"info","timestamp":"2019-03-08T02:47:53.410Z"}
+{"message":"[thought] global hear processing incoming message ID 6491d0ce1219b4238a7a80ae8f245661","level":"debug","timestamp":"2019-03-08T02:47:53.410Z"}
+{"message":"[thought] global listen processing incoming message ID 6491d0ce1219b4238a7a80ae8f245661 against 3 branches","level":"debug","timestamp":"2019-03-08T02:47:53.411Z"}
+{"message":"[branch] message \"say Hello World\" matched branch branch_1 conditions","level":"debug","timestamp":"2019-03-08T02:47:53.412Z"}
+{"message":"[branch] executing TextBranch callback, ID branch_1","level":"debug","timestamp":"2019-03-08T02:47:53.413Z"}
+{"message":"[thought] respond to matched branch branch_1","level":"info","timestamp":"2019-03-08T02:47:53.413Z"}
+{"message":"[thought] global respond processing incoming message ID 6491d0ce1219b4238a7a80ae8f245661","level":"debug","timestamp":"2019-03-08T02:47:53.415Z"}
+{"message":"[branch] branch_1 process done (matched)","level":"debug","timestamp":"2019-03-08T02:47:53.415Z"}
+{"message":"[thought] skip understand, no branches to process","level":"debug","timestamp":"2019-03-08T02:47:53.415Z"}
+{"message":"[thought] skip act, no branches to process","level":"debug","timestamp":"2019-03-08T02:47:53.415Z"}
+{"message":"[thought] skip remember, no storage adapter","level":"debug","timestamp":"2019-03-08T02:47:53.416Z"}
